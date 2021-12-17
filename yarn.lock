@@ -3456,6 +3456,47 @@ __metadata:
   languageName: node
   linkType: hard
 
+"everydaypsalms.com@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "everydaypsalms.com@workspace:."
+  dependencies:
+    "@next/bundle-analyzer": 12.0.7
+    "@testing-library/jest-dom": 5.16.1
+    "@testing-library/react": 12.1.2
+    "@types/jest": 27.0.3
+    "@types/node": 16.11.7
+    "@types/react": 17.0.35
+    "@types/testing-library__jest-dom": 5.14.2
+    "@typescript-eslint/eslint-plugin": 5.4.0
+    "@typescript-eslint/parser": 5.4.0
+    autoprefixer: 10.4.0
+    cross-env: 7.0.3
+    eslint: <8.0.0
+    eslint-config-next: 12.0.4
+    eslint-config-prettier: 8.3.0
+    eslint-plugin-import: 2.25.3
+    eslint-plugin-jsdoc: 37.2.2
+    eslint-plugin-jsx-a11y: 6.5.1
+    eslint-plugin-node: 11.1.0
+    eslint-plugin-react: 7.27.1
+    eslint-plugin-react-hooks: 4.3.0
+    eslint-plugin-tsdoc: 0.2.14
+    husky: 7.0.4
+    jest: 27.4.5
+    next: 12.0.4
+    next-seo: 4.28.1
+    npm-run-all: 4.1.5
+    postcss: 8.4.5
+    prettier: 2.4.1
+    react: 17.0.2
+    react-dom: 17.0.2
+    react-test-renderer: 17.0.2
+    rimraf: 3.0.2
+    tailwindcss: 3.0.5
+    typescript: 4.4.4
+  languageName: unknown
+  linkType: soft
+
 "evp_bytestokey@npm:^1.0.0, evp_bytestokey@npm:^1.0.3":
   version: 1.0.3
   resolution: "evp_bytestokey@npm:1.0.3"
@@ -5607,47 +5648,6 @@ __metadata:
   checksum: dfddaff6c06792f1c4c3809e29a427b8daef8cd437c83b08dd51d7ee11bbd1c29d9512d66b801144d6c98e910ffd8723f2432e0cbf8b18d41d2a09599c975ab3
   languageName: node
   linkType: hard
-
-"new-site@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "new-site@workspace:."
-  dependencies:
-    "@next/bundle-analyzer": 12.0.7
-    "@testing-library/jest-dom": 5.16.1
-    "@testing-library/react": 12.1.2
-    "@types/jest": 27.0.3
-    "@types/node": 16.11.7
-    "@types/react": 17.0.35
-    "@types/testing-library__jest-dom": 5.14.2
-    "@typescript-eslint/eslint-plugin": 5.4.0
-    "@typescript-eslint/parser": 5.4.0
-    autoprefixer: 10.4.0
-    cross-env: 7.0.3
-    eslint: <8.0.0
-    eslint-config-next: 12.0.4
-    eslint-config-prettier: 8.3.0
-    eslint-plugin-import: 2.25.3
-    eslint-plugin-jsdoc: 37.2.2
-    eslint-plugin-jsx-a11y: 6.5.1
-    eslint-plugin-node: 11.1.0
-    eslint-plugin-react: 7.27.1
-    eslint-plugin-react-hooks: 4.3.0
-    eslint-plugin-tsdoc: 0.2.14
-    husky: 7.0.4
-    jest: 27.4.5
-    next: 12.0.4
-    next-seo: 4.28.1
-    npm-run-all: 4.1.5
-    postcss: 8.4.5
-    prettier: 2.4.1
-    react: 17.0.2
-    react-dom: 17.0.2
-    react-test-renderer: 17.0.2
-    rimraf: 3.0.2
-    tailwindcss: 3.0.5
-    typescript: 4.4.4
-  languageName: unknown
-  linkType: soft
 
 "next-seo@npm:4.28.1":
   version: 4.28.1
