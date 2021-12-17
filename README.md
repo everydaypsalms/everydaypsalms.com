@@ -1,10 +1,10 @@
-# Next.js Static HTML Website
+# everydaypsalms.com
 
-This is a starter kit for a [Next.js](https://nextjs.org/) static HTML website project.
+everydaypsalms.com static HTML website [Next.js](https://nextjs.org/) source code.
 
 ## Getting Started
 
-Here are some steps you may need to take when using this template for the first time:
+Here are some steps you may need to take when working on this code for the first time:
 
 1. Install [Docker](https://www.docker.com/products/docker-desktop) and [Visual Studio Code](https://code.visualstudio.com/Download).
 1. Open the root folder of this repository in Visual Studio Code. Visual Studio Code will ask you to reopen folder in container. Say yes to this prompt.
@@ -133,11 +133,3 @@ This workspace also configures Prettier to automatically format files on save. T
 Misspellings create confusion and slow down development.
 
 This workspace uses the [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) extension to check spelling. Misspellings are indicated in the editor.
-
-## Next.js
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-- [The Next.js Repository](https://github.com/vercel/next.js/) - look under the hood.
