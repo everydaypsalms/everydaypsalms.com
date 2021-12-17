@@ -1,6 +1,6 @@
 # everydaypsalms.com
 
-everydaypsalms.com static HTML website [Next.js](https://nextjs.org/) source code.
+The static HTML website's [Next.js](https://nextjs.org/) source code.
 
 ## Getting Started
 
