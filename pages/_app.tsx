@@ -17,9 +17,7 @@ import "../styles/globals.css";
  */
 export default function MyApp({ Component, pageProps }: AppProps) {
   useEffect(() => {
-    AOS.init({
-      offset: 100,
-    });
+    AOS.init();
   }, []);
 
   return <Component {...pageProps} />;

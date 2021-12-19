@@ -7,9 +7,7 @@ const Home: NextPage = () => (
     seoDescription="Read Psalms everyday of your life."
   >
     <main className="grid place-items-center h-screen text-gray-700">
-      <p data-aos="fade-left" data-aos-delay="700">
-        Coming soon
-      </p>
+      <h1 data-aos="fade-left">Coming soon</h1>
     </main>
   </Layout>
 );
