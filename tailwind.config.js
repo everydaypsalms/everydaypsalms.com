@@ -6,10 +6,11 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    fontFamily: {
-      cinzel: ["Cinzel", "serif"],
+    extend: {
+      fontFamily: {
+        cinzel: ["Cinzel", "serif"],
+      },
     },
-    extend: {},
   },
   plugins: [],
 };
