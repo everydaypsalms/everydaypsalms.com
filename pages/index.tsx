@@ -1,4 +1,5 @@
 import type { NextPage } from "next";
+
 import { useEffect } from "react";
 import AOS from "aos";
 import Layout from "../components/layout";
