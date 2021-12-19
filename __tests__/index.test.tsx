@@ -4,12 +4,10 @@ import { render, screen } from "@testing-library/react";
 import Home from "../pages/index";
 
 describe("Home", () => {
-  it("renders a heading", () => {
+  it("renders the 'coming soon' text", () => {
     render(<Home />);
 
-    const heading = screen.getByRole("heading", {
-      name: /Coming soon!/i,
-    });
+    const heading = screen.getByText(/Coming soon/i);
 
     expect(heading).toBeInTheDocument();
   });
