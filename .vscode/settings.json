@@ -10,6 +10,12 @@
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.codeActionsOnSave": ["source.addMissingImports", "source.fixAll"],
-  "cSpell.words": ["EverydayPsalms", "TailwindCSS", "treemap", "TSDoc"],
+  "cSpell.words": [
+    "Cinzel",
+    "EverydayPsalms",
+    "TailwindCSS",
+    "treemap",
+    "TSDoc"
+  ],
   "cSpell.ignorePaths": [".git/objects", ".vscode", "yarn.lock"]
 }
