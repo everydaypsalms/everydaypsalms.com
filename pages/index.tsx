@@ -6,9 +6,7 @@ const Home: NextPage = () => (
     seoTitle="Everyday Psalms"
     seoDescription="Read Psalms everyday of your life."
   >
-    <main className="flex justify-center items-center h-screen">
-      Coming soon
-    </main>
+    <main className="grid place-items-center h-screen">Coming soon</main>
   </Layout>
 );
 
