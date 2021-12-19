@@ -6,7 +6,14 @@ import Document, {
   NextScript,
 } from "next/document";
 
-class MyDocument extends Document {
+/**
+ * Customization of the website's <html> and <body> tags.
+ * This is necessary because Next.js pages skip the
+ * definition of the surrounding document's markup.
+ *
+ * @see https://nextjs.org/docs/advanced-features/custom-document
+ */
+export default class MyDocument extends Document {
   static async getInitialProps(ctx: DocumentContext) {
     const initialProps = await Document.getInitialProps(ctx);
     return { ...initialProps };
@@ -29,5 +36,3 @@ class MyDocument extends Document {
     );
   }
 }
-
-export default MyDocument;
