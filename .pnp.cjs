@@ -64,6 +64,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["next-seo", "virtual:e33eb445b7d5ed0953eb8ac9c04f5281e8d3ce06c2776650abb97bd91f64c997e66a9fefd268c2739bb66c052ea78fd95a3136f2fca2538b63e3926dec48afa0#npm:4.28.1"],
             ["npm-run-all", "npm:4.1.5"],
             ["postcss", "npm:8.4.5"],
+            ["postcss-import", "virtual:e33eb445b7d5ed0953eb8ac9c04f5281e8d3ce06c2776650abb97bd91f64c997e66a9fefd268c2739bb66c052ea78fd95a3136f2fca2538b63e3926dec48afa0#npm:14.0.2"],
             ["prettier", "npm:2.4.1"],
             ["react", "npm:17.0.2"],
             ["react-dom", "virtual:e33eb445b7d5ed0953eb8ac9c04f5281e8d3ce06c2776650abb97bd91f64c997e66a9fefd268c2739bb66c052ea78fd95a3136f2fca2538b63e3926dec48afa0#npm:17.0.2"],
@@ -4695,6 +4696,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["next-seo", "virtual:e33eb445b7d5ed0953eb8ac9c04f5281e8d3ce06c2776650abb97bd91f64c997e66a9fefd268c2739bb66c052ea78fd95a3136f2fca2538b63e3926dec48afa0#npm:4.28.1"],
             ["npm-run-all", "npm:4.1.5"],
             ["postcss", "npm:8.4.5"],
+            ["postcss-import", "virtual:e33eb445b7d5ed0953eb8ac9c04f5281e8d3ce06c2776650abb97bd91f64c997e66a9fefd268c2739bb66c052ea78fd95a3136f2fca2538b63e3926dec48afa0#npm:14.0.2"],
             ["prettier", "npm:2.4.1"],
             ["react", "npm:17.0.2"],
             ["react-dom", "virtual:e33eb445b7d5ed0953eb8ac9c04f5281e8d3ce06c2776650abb97bd91f64c997e66a9fefd268c2739bb66c052ea78fd95a3136f2fca2538b63e3926dec48afa0#npm:17.0.2"],
@@ -7857,6 +7859,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["pify", [
+        ["npm:2.3.0", {
+          "packageLocation": "./.yarn/cache/pify-npm-2.3.0-8b63310934-9503aaeaf4.zip/node_modules/pify/",
+          "packageDependencies": [
+            ["pify", "npm:2.3.0"]
+          ],
+          "linkType": "HARD",
+        }],
         ["npm:3.0.0", {
           "packageLocation": "./.yarn/cache/pify-npm-3.0.0-679ee405c8-6cdcbc3567.zip/node_modules/pify/",
           "packageDependencies": [
@@ -7919,6 +7928,31 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["nanoid", "npm:3.1.30"],
             ["picocolors", "npm:1.0.0"],
             ["source-map-js", "npm:1.0.1"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["postcss-import", [
+        ["npm:14.0.2", {
+          "packageLocation": "./.yarn/cache/postcss-import-npm-14.0.2-d5d5fc15ed-e9f42b5956.zip/node_modules/postcss-import/",
+          "packageDependencies": [
+            ["postcss-import", "npm:14.0.2"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:e33eb445b7d5ed0953eb8ac9c04f5281e8d3ce06c2776650abb97bd91f64c997e66a9fefd268c2739bb66c052ea78fd95a3136f2fca2538b63e3926dec48afa0#npm:14.0.2", {
+          "packageLocation": "./.yarn/__virtual__/postcss-import-virtual-a17f07ca98/0/cache/postcss-import-npm-14.0.2-d5d5fc15ed-e9f42b5956.zip/node_modules/postcss-import/",
+          "packageDependencies": [
+            ["postcss-import", "virtual:e33eb445b7d5ed0953eb8ac9c04f5281e8d3ce06c2776650abb97bd91f64c997e66a9fefd268c2739bb66c052ea78fd95a3136f2fca2538b63e3926dec48afa0#npm:14.0.2"],
+            ["@types/postcss", null],
+            ["postcss", "npm:8.4.5"],
+            ["postcss-value-parser", "npm:4.2.0"],
+            ["read-cache", "npm:1.0.0"],
+            ["resolve", "patch:resolve@npm%3A1.20.0#~builtin<compat/resolve>::version=1.20.0&hash=07638b"]
+          ],
+          "packagePeers": [
+            "@types/postcss",
+            "postcss"
           ],
           "linkType": "HARD",
         }]
@@ -8325,6 +8359,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packagePeers": [
             "@types/react",
             "react"
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["read-cache", [
+        ["npm:1.0.0", {
+          "packageLocation": "./.yarn/cache/read-cache-npm-1.0.0-00fa89ed05-cffc728b9e.zip/node_modules/read-cache/",
+          "packageDependencies": [
+            ["read-cache", "npm:1.0.0"],
+            ["pify", "npm:2.3.0"]
           ],
           "linkType": "HARD",
         }]
