@@ -9,10 +9,19 @@ Here are some steps you may need to take when working on this code for the first
 1. Install [Docker](https://www.docker.com/products/docker-desktop) and [Visual Studio Code](https://code.visualstudio.com/Download).
 1. Open the root folder of this repository in Visual Studio Code.
 1. Visual Studio Code will pop up a prompt about detecting a Dev Container configuration file in the folder. Click the "Reopen in Container" button.
-1. Configure your GitHub account.
+1. Assume your GitHub account's permissions to communicate with the Git remote.
    1. Press Enter several times through the RSA key pair generation steps in the terminal.
    1. Run `cat /home/node/.ssh/id_rsa.pub` in the terminal, to see the generated public key.
    1. Add the public key [to your GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account).
+1. Set up [signed commits](https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work).
+   1. Run the following commands for preparation.
+      - `gpg --list-signatures` (This creates `.gnupg`, `pubring.kbx`, and `trustdb.gpg`.)
+      - `export GPG_TTY=$(tty)` (This allows the passphrase prompt to come across from the dev container to the VS Code terminal window.)
+      - `echo "export GPG_TTY=$(tty)" >> /home/node/.bashrc` (This automates the previous step when the dev container reboots.)
+   1. Follow [these steps](https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key?platform=linux) to generate a new GPG key and add it to your GitHub account.
+   1. Note the the GPG key ID from the previous step.
+   1. Run `git config --global user.signingkey <GPG key ID>` in the terminal, to make Git sign commits using the newly generated key.
+   1. Run `echo "test" | gpg --clearsign` in the terminal, enter the passphrase so it is remembered for subsequent uses.
 1. Activate this workspace's custom TypeScript settings. (For safety reasons, this must be done explicitly.)
    1. Open a TypeScript file such as `pages/index.tsx`.
    1. Open the [Command Palette](https://code.visualstudio.com/docs/getstarted/userinterface#_command-palette).
